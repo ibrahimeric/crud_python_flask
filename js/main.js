@@ -1,31 +1,79 @@
-document.getElementById("header").innerHTML=` <nav class="navbar navbar-expand-sm navbar-light bg-light">
-<div class="container">
-  <a class="navbar-brand" href="index.html">Navbar</a>
-  <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavId">
-      <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-              <a class="nav-link active" href="index.html" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CRUD</a>
-              <div class="dropdown-menu" aria-labelledby="dropdownId">
-                  <a class="dropdown-item" href="productos.html">Produtos</a>
-                  <a class="dropdown-item" href="#">Action 2</a>
-              </div>
-          </li>
-      </ul>
-      <form class="d-flex my-2 my-lg-0">
-          <input class="form-control me-sm-2" type="text" placeholder="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-  </div>
-</div>
+document.getElementById("header").innerHTML=`     <header>
+<nav class="header">
+    <div class="header_img">
+        <a title="Rhythm House" href="index.html"><img class="iconoLogo" src="img/freeLogo.png"
+                alt="Icono Rhythm House"></a>
+    </div>
+
+    <div class="header_links">
+        <a class="botonMenu" href="index.html">HOME</a>
+        <a class="botonMenu" href="productos.html">CURSOS</a>
+        <a class="botonMenu" href="pages/contacto.html">CONTACTO</a>
+    </div>
 </nav>
+</header>`
+
+document.getElementById("footer").innerHTML=`   <footer>
+<div class="footer">
+    <div class="sb_footer section_padding">
+        <div class="sb_footer_links">
+            <div class="sb_footer_links_div">
+                <h4 class="footer_titulo">Info de la Web</h4>
+                <p>Sitio Web creado en el curso Full Stack Python. Codo a Codo año 2023.</p>
+            </div>
+            <div class="sb_footer_links_div">
+                <h4 class="footer_titulo">Desarrolladores</h4>
+                <ul class="footer_lista">
+                    <li class="integrantes">Devechi, Agustín</li>
+                    <li class="integrantes">Ibrahim, Eric</li>
+                    <li class="integrantes">Natucci, Valeria</li>
+                    <li class="integrantes">Nobile, Pablo</li>
+                </ul>
+            </div>
+            <div class="sb_footer_links_div">
+                <h4 class="footer_titulo">Contacto</h4>
+                <ul class='iconLista'>
+                    <li><a class='facebook' href="https://www.facebook.com/profile.php?id=100093154056964" target="_blank"><i
+                                class="fab fa-facebook-f fa-2x"></i></a></li>
+                    <li><a class='instagram' href="https://www.instagram.com/academiademusicarh/#" target="_blank"><i
+                                class="fab fa-instagram fa-2x"></i></a></li>
+                    <li><a class='twitter' href="https://twitter.com/RyhthmHouseAcad" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="sb_footer_below">
+            <div class="sb_footer_copyright">
+                <p>
+                    @2023 Rhythm House
+                </p>
+            </div>
+            <div class="sb_footer_below_links">
+                <a href="#">
+                    <div>
+                        <p>Terms & Conditions</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+                        <p>Privacy</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+                        <p>Security</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+                        <p>Cookie Declaration</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
 `
